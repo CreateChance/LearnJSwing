@@ -5106,7 +5106,7 @@ JTree(TreeNode root, boolean asksAllowsChildren): 使用root作为根结点创�
 
 **TreeNode继承体系及使用：**
 
-​	![](G:/%E7%A0%94%E5%8F%91/GUI/%E6%96%87%E6%A1%A3/images/TreeNode.png)	![](G:/%E7%A0%94%E5%8F%91/GUI/%E6%96%87%E6%A1%A3/images/%E7%9B%AE%E5%BD%95%E6%A0%912.jpg)
+​	![](./images/TreeNode.png)	![](./images/%E7%9B%AE%E5%BD%95%E6%A0%912.jpg)
 
 在构建目录树时，可以先创建很多DefaultMutableTreeNode对象，并调用他们的add方法构建好子父级结构，最后根据根结点构建一个JTree即可。
 
@@ -5114,7 +5114,7 @@ JTree(TreeNode root, boolean asksAllowsChildren): 使用root作为根结点创�
 
 ​	使用JTree和TreeNode完成下图效果：
 
-​	![](G:/%E7%A0%94%E5%8F%91/GUI/%E6%96%87%E6%A1%A3/images/SimpleJTree.jpg)
+​	![](./images/SimpleJTree.jpg)
 
 **演示代码：**
 
@@ -5224,7 +5224,7 @@ JTree 生成的树默认是不可编辑的，不可以添加、删除结点，�
 
 ​	使用JTree以及DefaultTreeModel、DefaultMutableTreeNode、TreePath完成下图效果：
 
-​	![](G:/%E7%A0%94%E5%8F%91/GUI/%E6%96%87%E6%A1%A3/images/EditTree.jpg)
+​	![](./images/EditTree.jpg)
 
 **演示代码：**
 
@@ -5455,7 +5455,7 @@ JTree 专门提供了 一个 TreeSelectionModel 对象来保存该 JTree 选中�
 
 ​	实现下图效果：
 
-​	![](G:/%E7%A0%94%E5%8F%91/GUI/%E6%96%87%E6%A1%A3/images/SelectJTree.jpg)
+​	![](./images/SelectJTree.jpg)
 
 **演示代码：**
 
@@ -5546,7 +5546,7 @@ setTextSelectionColor(Color newColor): 设置绘制选中状态下节点文本�
 
 ​	使用DefaultTreeCellRenderer完成下图效果：
 
-​	![](G:/%E7%A0%94%E5%8F%91/GUI/%E6%96%87%E6%A1%A3/images/CellRender1.jpg)
+​	![](./images/CellRender1.jpg)
 
 **演示代码：**
 
@@ -5637,7 +5637,7 @@ DefaultTreeCellRende rer 类继承了JLabel，实现 getTreeCellRendererComponen
 
 ​	自定义类继承DefaultTreeCellRenderer,重写getTreeCellRendererComponent()方法，实现下图效果：
 
-​	![](G:/%E7%A0%94%E5%8F%91/GUI/%E6%96%87%E6%A1%A3/images/%E6%89%A9%E5%B1%95DefaultTreeCellRenderer.jpg)
+​	![](./images/%E6%89%A9%E5%B1%95DefaultTreeCellRenderer.jpg)
 
 **演示代码：**
 
@@ -5788,7 +5788,7 @@ public class ExtendsDefaultCellTreeRenderer {
 
 ​	自定义类，继承JPanel类，实现TreeCellRenderer接口，完成下图效果：
 
-​	![](G:/%E7%A0%94%E5%8F%91/GUI/%E6%96%87%E6%A1%A3/images/TreeCellRenderer.jpg)
+​	![](./images/TreeCellRenderer.jpg)
 
 **演示代码：**
 
@@ -5918,7 +5918,7 @@ public class CustomerTreeNode {
 
 ​	使用JTable实现下图效果：
 
-​	![](G:/%E7%A0%94%E5%8F%91/GUI/%E6%96%87%E6%A1%A3/images/SimpleTable.jpg)
+​	![](./images/SimpleTable.jpg)
 
 **演示代码：**
 
@@ -6020,11 +6020,11 @@ JTable提供了一个setAutoResizeMode(int mode)方法用来调整表格的格�
 
 ​	通过JTable实现的宽度调整，选择模式调整，选择状态调整，实现下图效果：
 
-​	![](G:/%E7%A0%94%E5%8F%91/GUI/%E6%96%87%E6%A1%A3/images/adjust1.png)
+​	![](./images/adjust1.png)
 
-​	![](G:/%E7%A0%94%E5%8F%91/GUI/%E6%96%87%E6%A1%A3/images/adjust2.png)
+​	![](./images/adjust2.png)
 
-​	![](G:/%E7%A0%94%E5%8F%91/GUI/%E6%96%87%E6%A1%A3/images/adjust3.png)
+​	![](./images/adjust3.png)
 
 **演示代码：**
 
@@ -6255,7 +6255,7 @@ setValueAt(Object aValue, int rowIndex, int columnIndex)：设置rowIndex行，c
 
 
 
-​	![](G:/%E7%A0%94%E5%8F%91/GUI/%E6%96%87%E6%A1%A3/images/TableModel.png)
+​	![](./images/TableModel.png)
 
 **演示代码：**
 
@@ -6526,7 +6526,7 @@ JTable中也提供了类似的方法完成列的操作，只是其底层依然�
 
 ​	使用DefaultTableModel和TableColumnModel完成下图效果：
 
-​	![](G:/%E7%A0%94%E5%8F%91/GUI/%E6%96%87%E6%A1%A3/images/DefaultTableModel.png)
+​	![](./images/DefaultTableModel.png)
 
 **演示代码：**
 
@@ -6692,7 +6692,7 @@ public class DefaultTableModelTest {
 
 ​		双击列的头部，按照该列从小到大的顺序进行排序
 
-​	![](G:/%E7%A0%94%E5%8F%91/GUI/%E6%96%87%E6%A1%A3/images/sorttable.png)
+​	![](./images/sorttable.png)
 
 **演示代码：**
 
@@ -6900,7 +6900,7 @@ class ExtendedTableModel extends DefaultTableModel{
 
 ​	使用TableCellRenderer和TableModel实现下图效果：
 
-​	![](G:/%E7%A0%94%E5%8F%91/GUI/%E6%96%87%E6%A1%A3/images/TableCellRenderer.png)
+​	![](./images/TableCellRenderer.png)
 
 **演示代码：**
 
@@ -7045,9 +7045,9 @@ public class TableCellRendererTest {
 
 ​	使用TableCellEditor和TableModel完成下图效果：
 
-​	![](G:/%E7%A0%94%E5%8F%91/GUI/%E6%96%87%E6%A1%A3/images/TableCellEditor1.png)
+​	![](./images/TableCellEditor1.png)
 
-​	![](G:/%E7%A0%94%E5%8F%91/GUI/%E6%96%87%E6%A1%A3/images/TableCellEditor2.png)
+​	![](./images/TableCellEditor2.png)
 
 **演示代码：**
 
